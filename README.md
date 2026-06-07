@@ -1,26 +1,15 @@
-<p align="center">
-    <i>🚀 <a href="https://keycloakify.dev">Keycloakify</a> v11 starter 🚀</i>
-    <br/>
-    <br/>
-</p>
+[![Release](https://github.com/grauds/clematis.money.tracker.keycloak/actions/workflows/release.yml/badge.svg)](https://github.com/grauds/clematis.money.tracker.keycloak/actions/workflows/release.yml)
 
-# Quick start
+# Clematis Keycloak Theme
 
-```bash
-git clone https://github.com/keycloakify/keycloakify-starter
-cd keycloakify-starter
-yarn install # Or use an other package manager, just be sure to delete the yarn.lock if you use another package manager.
-```
+Simple customization of the [Keycloakify](https://github.com/keycloakify/keycloakify) 
+[starter theme](https://github.com/keycloakify/keycloakify-starter)
+used for [Clematis Money Tracker](https://github.com/grauds/money.tracker.ui) 
+application branding.
 
-# Testing the theme locally
+The original [documentation](https://docs.keycloakify.dev/css-customization) for the theme template.
 
-[Documentation](https://docs.keycloakify.dev/testing-your-theme)
-
-# How to customize the theme
-
-[Documentation](https://docs.keycloakify.dev/css-customization)
-
-# Building the theme
+## Building the theme
 
 You need to have [Maven](https://maven.apache.org/) installed to build the theme (Maven >= 3.1.1, Java >= 7).  
 The `mvn` command must be in the $PATH.
@@ -33,26 +22,9 @@ The `mvn` command must be in the $PATH.
 npm run build-keycloak-theme
 ```
 
-Note that by default Keycloakify generates multiple .jar files for different versions of Keycloak.  
+Note that by default, Keycloakify generates multiple .jar files for different versions of Keycloak.  
 You can customize this behavior, see documentation [here](https://docs.keycloakify.dev/features/compiler-options/keycloakversiontargets).
 
-# Initializing the account theme
+## Updating the template
 
-```bash
-npx keycloakify initialize-account-theme
-```
-
-# Initializing the email theme
-
-```bash
-npx keycloakify initialize-email-theme
-```
-
-# GitHub Actions
-
-The starter comes with a generic GitHub Actions workflow that builds the theme and publishes
-the jars [as GitHub releases artifacts](https://github.com/keycloakify/keycloakify-starter/releases/tag/v10.0.0).  
-To release a new version **just update the `package.json` version and push**.
-
-To enable the workflow go to your fork of this repository on GitHub then navigate to:
-`Settings` > `Actions` > `Workflow permissions`, select `Read and write permissions`.
+The repository is updated from the [Keycloakify Starter](https://github.com/keycloakify/keycloakify-starter).
