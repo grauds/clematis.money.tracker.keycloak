@@ -1,6 +1,7 @@
+# Clematis Keycloak Theme
+
 [![Release](https://github.com/grauds/clematis.money.tracker.keycloak/actions/workflows/release.yml/badge.svg)](https://github.com/grauds/clematis.money.tracker.keycloak/actions/workflows/release.yml)
 
-# Clematis Keycloak Theme
 
 Simple customization of the [Keycloakify](https://github.com/keycloakify/keycloakify) 
 [starter theme](https://github.com/keycloakify/keycloakify-starter)
