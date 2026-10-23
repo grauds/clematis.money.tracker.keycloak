@@ -1,5 +1,6 @@
 # Clematis Keycloak Theme
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/license/mit-0)
 [![Release](https://github.com/grauds/clematis.money.tracker.keycloak/actions/workflows/release.yml/badge.svg)](https://github.com/grauds/clematis.money.tracker.keycloak/actions/workflows/release.yml)
 
 
